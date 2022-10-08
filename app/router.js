@@ -1,7 +1,7 @@
 import Router from "@koa/router";
-import * as users from "./app/users/index.js";
-import * as bets from "./app/bets/index.js";
-import * as matches from "./app/matches/index.js";
+import * as users from "./users/index.js";
+import * as bets from "./bets/index.js";
+import * as matches from "./matches/index.js";
 
 export const router = new Router();
 
