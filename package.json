@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "node -r dotenv-safe/config api/index.js"
+    "dev": "nodemon -r dotenv-safe/config api/index.js"
   },
   "prisma": {
     "seed": "node prisma/seed.js"
@@ -20,7 +20,8 @@
     "dotenv-safe": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",
-    "koa-bodyparser": "^4.3.0"
+    "koa-bodyparser": "^4.3.0",
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "prisma": "^4.4.0"
